@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
       </div>
       <ul className={!nav ? 'hidden' : 'absolute bg-[#f9f9f9] w-[100%] px-8'} onClick={handlclose}>
-       <Link to={'/home'}> <li className='border-b-2 py-3 border-black-300 w-full'>Home</li></Link>
+       <Link to={'/'}> <li className='border-b-2 py-3 border-black-300 w-full'>Home</li></Link>
         <Link to={'/about'}><li className='border-b-2 py-3 border-black-300 w-full'>About</li></Link>
        <Link to={'/support'}> <li className='border-b-2 py-3 border-black-300 w-full'>Support</li></Link>
         <Link to={'/plaform'}><li className='border-b-2 py-3 border-black-300 w-full'>Platform</li></Link>
